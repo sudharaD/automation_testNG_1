@@ -1,0 +1,2 @@
+module autocourse1 {
+}
