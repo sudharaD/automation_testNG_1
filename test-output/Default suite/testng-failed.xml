@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ucsc.automation.katalon.Test003">
+      <class name="ucsc.automation.katalon.Test001">
         <methods>
           <include name="testUntitledTestCase"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- ucsc.automation.katalon.Test003 -->
+      </class> <!-- ucsc.automation.katalon.Test001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
