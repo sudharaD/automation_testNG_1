@@ -38,7 +38,7 @@ public class Test004 {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    System.setProperty("webdriver.chrome.driver", "");
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\SudharaD\\eclipse-workspace\\autocourse1\\libraries\\chromedriver.exe");
     driver = new ChromeDriver();
     baseUrl = "https://www.google.com/";
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
