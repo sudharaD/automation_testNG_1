@@ -1,4 +1,4 @@
-package com.example;
+package ucsc.automation.katalon;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
@@ -8,9 +8,11 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import java.io.File;
+import java.time.Duration;
+
 import org.apache.commons.io.FileUtils;
 
-public class UntitledTestCase {
+public class Test003 {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;

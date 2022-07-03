@@ -1,7 +1,21 @@
 // user name - sudharad21
 // @64cEJQ4Uk6Zinc
 
-package com.example;
+//echo "# automation_testNG_1" >> README.md
+//git init
+//git add README.md
+//git commit -m "first commit"
+//git branch -M main
+//git remote add origin https://github.com/sudharaD/automation_testNG_1.git
+//git push -u origin main
+
+//git remote add origin https://github.com/sudharaD/automation_testNG_1.git
+//git branch -M main
+//git push -u origin main
+
+// git status
+
+package ucsc.automation.katalon;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
@@ -11,9 +25,11 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import java.io.File;
+import java.time.Duration;
+
 import org.apache.commons.io.FileUtils;
 
-public class UntitledTestCase {
+public class Test004 {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;

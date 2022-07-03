@@ -1,4 +1,4 @@
-package com.example;
+package ucsc.automation.katalon;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
@@ -8,9 +8,11 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import java.io.File;
-import org.apache.commons.io.FileUtils;
+import java.time.Duration;
 
-public class UntitledTestCase {
+//import org.apache.commons.io.FileUtils;
+
+public class Test001 {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -19,7 +21,7 @@ public class UntitledTestCase {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    System.setProperty("webdriver.chrome.driver", "C:\Users\SudharaD\Desktop\Automation Course");
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\SudharaD\\Desktop\\Automation Course");
     driver = new ChromeDriver();
     baseUrl = "https://www.google.com/";
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
